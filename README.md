@@ -6,7 +6,7 @@
 `mv .env.example .env`
 
 #### 1. Init Rails Project
-`docker-compose run --no-deps app rails new . --force ---database=<datbase>`
+`docker-compose run --no-deps app rails new . --force ---database=<database>`
 
 #### 2. Update Database Config
 `mv example.database.yml app/config/database.yml`
